@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @address.name %>
+</p>
+
+<p>
+  <strong>Start time:</strong>
+  <%= @address.start_time %>
+</p>
+
+<p>
+  <strong>End time:</strong>
+  <%= @address.end_time %>
+</p>
+
+<p>
+  <strong>Average:</strong>
+  <%= @address.average %>
+</p>
+
+<p>
+  <strong>Minimun:</strong>
+  <%= @address.minimun %>
+</p>
+
+<p>
+  <strong>Maximum:</strong>
+  <%= @address.maximum %>
+</p>
+
+<p>
+  <strong>Lost:</strong>
+  <%= @address.lost %>
+</p>
+
+<%= link_to 'Edit', edit_address_path(@address) %> |
+<%= link_to 'Back', addresses_path %>
